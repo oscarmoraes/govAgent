@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "node -e \"require('fs').rmSync('.next', {recursive: true, force: true})\" && next build",
     "build-cf": "npm run build && opennextjs-cloudflare build",
+    "deploy": "wrangler deploy",
     "start": "next start",
     "lint": "eslint"
   },
