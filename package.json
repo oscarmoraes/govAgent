@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node -e \"console.log('--- DIAGNOSTICO ---'); console.log('src/proxy.ts existe:', require('fs').existsSync('src/proxy.ts')); console.log('src/middleware.ts existe:', require('fs').existsSync('src/middleware.ts')); console.log('--------------------')\" && node -e \"require('fs').rmSync('.next', {recursive: true, force: true})\" && next build",
+    "build": "node -e \"require('fs').rmSync('.next', {recursive: true, force: true})\" && next build",
+    "build-cf": "npm run build && opennextjs-cloudflare build",
     "start": "next start",
     "lint": "eslint"
   },
@@ -21,11 +22,13 @@
     "@emnapi/core": "1.11.1",
     "@emnapi/runtime": "1.11.1",
     "@emnapi/wasi-threads": "1.2.2",
+    "@opennextjs/cloudflare": "^1.19.11",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.101.0"
   }
 }
