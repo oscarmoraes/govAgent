@@ -43,7 +43,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Aposentada Civil',
     faction: 'neutro',
     description: 'Antiga funcionária administrativa de cartório municipal, cujas economias sumiram de sua caderneta de poupança.',
-    avatarUrl: '/assets/characters/olga.png',
+    avatarUrl: '/assets/characters/olga.webp',
   },
   'valerio': {
     id: 'valerio',
@@ -51,7 +51,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Diretor-Presidente de Banco',
     faction: 'consórcio',
     description: 'Banqueiro de investimentos e articulador financeiro encarregado de ocultar recursos desviados em offshores.',
-    avatarUrl: '/assets/characters/valerio.png',
+    avatarUrl: '/assets/characters/valerio.webp',
   },
   'marina': {
     id: 'marina',
@@ -59,7 +59,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Jornalista Investigativa',
     faction: 'neutro',
     description: 'Repórter independente do portal "Lupa Virtual", focada em crimes financeiros de colarinho branco.',
-    avatarUrl: '/assets/characters/marina.png',
+    avatarUrl: '/assets/characters/marina.webp',
   },
   'hermes': {
     id: 'hermes',
@@ -67,7 +67,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Juiz Federal de Crimes Financeiros',
     faction: 'cúpula',
     description: 'Magistrado federal sênior suspeito de anular buscas policiais por supostos vícios processuais.',
-    avatarUrl: '/assets/characters/hermes.png',
+    avatarUrl: '/assets/characters/hermes.webp',
   },
   'sombra': {
     id: 'sombra',
@@ -75,7 +75,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Cobrador e Operador Tático',
     faction: 'sindicato',
     description: 'Executor e cobrador urbano a serviço das milícias e facções, encarregado de ameaçar testemunhas.',
-    avatarUrl: '/assets/characters/sombra.png',
+    avatarUrl: '/assets/characters/sombra.webp',
   },
   'clara': {
     id: 'clara',
@@ -83,7 +83,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Diretora de TI Bancária',
     faction: 'consórcio',
     description: 'Superintendente operacional de câmbio que controla as senhas de servidores no exterior.',
-    avatarUrl: '/assets/characters/clara.png',
+    avatarUrl: '/assets/characters/clara.webp',
   },
   'altamiro': {
     id: 'altamiro',
@@ -91,7 +91,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Presidente de Comissão Legislativa',
     faction: 'cúpula',
     description: 'Líder parlamentar influente especializado em criar CPIs de retaliação e aprovar leis de abuso de autoridade.',
-    avatarUrl: '/assets/characters/altamiro.png',
+    avatarUrl: '/assets/characters/altamiro.webp',
   },
   'rogerio': {
     id: 'rogerio',
@@ -99,7 +99,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Investigador de Campo Sênior',
     faction: 'neutro',
     description: 'Agente sênior da agência GovAgent, parceiro leal do jogador nas operações de busca e apreensão.',
-    avatarUrl: '/assets/characters/rogerio.png',
+    avatarUrl: '/assets/characters/rogerio.webp',
   },
   'mirella': {
     id: 'mirella',
@@ -107,7 +107,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Modelo & Influenciadora',
     faction: 'consórcio',
     description: 'Personalidade da internet suspeita de atuar como testa de ferro na propriedade de imóveis de luxo do banqueiro.',
-    avatarUrl: '/assets/characters/mirella.png',
+    avatarUrl: '/assets/characters/mirella.webp',
   },
   'augusto': {
     id: 'augusto',
@@ -115,7 +115,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Subprocurador da República',
     faction: 'cúpula',
     description: 'Promotor encarregado de assinar denúncias, acusado de reter investigações importantes em suas gavetas.',
-    avatarUrl: '/assets/characters/augusto.png',
+    avatarUrl: '/assets/characters/augusto.webp',
   },
   'geraldo': {
     id: 'geraldo',
@@ -123,7 +123,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Operador de Câmbio Paralelo',
     faction: 'sindicato',
     description: 'Doleiro responsável por realizar transações com dinheiro em malas.',
-    avatarUrl: '/assets/characters/geraldo.png',
+    avatarUrl: '/assets/characters/geraldo.webp',
   },
   'alice': {
     id: 'alice',
@@ -131,7 +131,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Estudante de Direito',
     faction: 'neutro',
     description: 'Filha do Inspetor Rogério, estudante universitária.',
-    avatarUrl: '/assets/characters/alice.png',
+    avatarUrl: '/assets/characters/alice.webp',
   },
   'fontes': {
     id: 'fontes',
@@ -139,7 +139,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Advogado Criminalista Sênior',
     faction: 'cúpula',
     description: 'Advogado criminalista sênior, especialista em anulações técnicas.',
-    avatarUrl: '/assets/characters/fontes.png',
+    avatarUrl: '/assets/characters/fontes.webp',
   },
   'beto': {
     id: 'beto',
@@ -147,7 +147,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Engenheiro de Redes & Hacker',
     faction: 'sindicato',
     description: 'Hacker encarregado de roubar e sabotar provas da polícia.',
-    avatarUrl: '/assets/characters/beto.png',
+    avatarUrl: '/assets/characters/beto.webp',
   },
   'cecilia': {
     id: 'cecilia',
@@ -155,7 +155,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Secretária Executiva',
     faction: 'neutro',
     description: 'Secretária executiva do banqueiro, testemunha ocular de crimes.',
-    avatarUrl: '/assets/characters/cecilia.png',
+    avatarUrl: '/assets/characters/cecilia.webp',
   },
   'emilio': {
     id: 'emilio',
@@ -163,7 +163,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Gestor de Ativos Estrangeiros',
     faction: 'consórcio',
     description: 'Diretor financeiro associado a fundos estrangeiros e paraísos fiscais.',
-    avatarUrl: '/assets/characters/emilio.png',
+    avatarUrl: '/assets/characters/emilio.webp',
   },
   'linhares': {
     id: 'linhares',
@@ -171,7 +171,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Líder do Governo no Senado',
     faction: 'cúpula',
     description: 'Líder político do governo, padrinho das indicações judiciais da Cúpula.',
-    avatarUrl: '/assets/characters/linhares.png',
+    avatarUrl: '/assets/characters/linhares.webp',
   },
   'thiago': {
     id: 'thiago',
@@ -179,7 +179,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Operador de Inteligência da PM',
     faction: 'sindicato',
     description: 'Policial militar que vaza relatórios de inteligência operacional.',
-    avatarUrl: '/assets/characters/thiago.png',
+    avatarUrl: '/assets/characters/thiago.webp',
   },
   'nelson': {
     id: 'nelson',
@@ -187,7 +187,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Perito Contábil Judicial',
     faction: 'cúpula',
     description: 'Perito judicial contábil contatado para fraudar laudos de auditoria.',
-    avatarUrl: '/assets/characters/nelson.png',
+    avatarUrl: '/assets/characters/nelson.webp',
   },
   'lucia': {
     id: 'lucia',
@@ -195,7 +195,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Auditora de Compliance',
     faction: 'neutro',
     description: 'Auditora de conformidade do banco cooperativo CooperCred, responsável por detectar transações atípicas de desvios previdenciários.',
-    avatarUrl: '/assets/characters/lucia.png',
+    avatarUrl: '/assets/characters/lucia.webp',
   },
   'xavier': {
     id: 'xavier',
@@ -203,7 +203,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Diretor-Geral da GovAgent',
     faction: 'cúpula',
     description: 'Diretor-Geral da Agência de Inteligência (GovAgent), suspeito de atuar como agente infiltrado da Cúpula.',
-    avatarUrl: '/assets/characters/xavier.png',
+    avatarUrl: '/assets/characters/xavier.webp',
   },
   'mauricio': {
     id: 'mauricio',
@@ -211,7 +211,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Diretor da CVM',
     faction: 'consórcio',
     description: 'Diretor regulador que facilita a aprovação de debêntures fictícias para lavagem de capital.',
-    avatarUrl: '/assets/characters/mauricio.png',
+    avatarUrl: '/assets/characters/mauricio.webp',
   },
   'sergio': {
     id: 'sergio',
@@ -219,7 +219,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Gerente Alfandegário do Porto Seco',
     faction: 'sindicato',
     description: 'Gerente aduaneiro responsável por facilitar a liberação física de contêineres de contrabando.',
-    avatarUrl: '/assets/characters/sergio.png',
+    avatarUrl: '/assets/characters/sergio.webp',
   },
   'sandra': {
     id: 'sandra',
@@ -227,7 +227,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Ex-Esposa do Deputado',
     faction: 'neutro',
     description: 'Guarda diários secretos detalhando transações de construtoras para influenciar votações da PEC.',
-    avatarUrl: '/assets/characters/sandra.png',
+    avatarUrl: '/assets/characters/sandra.webp',
   },
   'brandao': {
     id: 'brandao',
@@ -235,7 +235,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Ministro do STJ',
     faction: 'cúpula',
     description: 'Magistrado de corte superior que comercializa decisões liminares e anulações de buscas táticas.',
-    avatarUrl: '/assets/characters/brandao.png',
+    avatarUrl: '/assets/characters/brandao.webp',
   },
   'jonas': {
     id: 'jonas',
@@ -243,7 +243,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Líder de Milícia Armada',
     faction: 'sindicato',
     description: 'Comandante operacional que coordena a segurança de perímetros clandestinos e rotas de contrabando.',
-    avatarUrl: '/assets/characters/jonas.png',
+    avatarUrl: '/assets/characters/jonas.webp',
   },
   'patricia': {
     id: 'patricia',
@@ -251,7 +251,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Relações Públicas & Assessora',
     faction: 'neutro',
     description: 'Assessora de comunicação encarregada de plantar pautas de difamação e campanhas de fake news.',
-    avatarUrl: '/assets/characters/patricia.png',
+    avatarUrl: '/assets/characters/patricia.webp',
   },
   'emerson': {
     id: 'emerson',
@@ -259,7 +259,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Presidente do Fundo PreviGov',
     faction: 'consórcio',
     description: 'Gestor público encarregado de desviar aportes de previdência para fundos fantasmas de Nassau.',
-    avatarUrl: '/assets/characters/emerson.png',
+    avatarUrl: '/assets/characters/emerson.webp',
   },
   'renata': {
     id: 'renata',
@@ -267,7 +267,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Analista Forense da Receita',
     faction: 'neutro',
     description: 'Auditora financeira encarregada de rastrear as contas bancárias ocultas e empresas de fachada.',
-    avatarUrl: '/assets/characters/renata.png',
+    avatarUrl: '/assets/characters/renata.webp',
   },
   'vitor': {
     id: 'vitor',
@@ -275,7 +275,7 @@ export const CHARACTERS: Record<string, Character> = {
     role: 'Piloto de Carga Aérea',
     faction: 'sindicato',
     description: 'Piloto responsável por operar pousos táticos clandestinos transportando cargas não declaradas.',
-    avatarUrl: '/assets/characters/vitor.png',
+    avatarUrl: '/assets/characters/vitor.webp',
   },
 };
 

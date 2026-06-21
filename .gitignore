@@ -45,3 +45,15 @@ next-env.d.ts
 # cloudflare
 .open-next/
 .dev.vars
+
+# agents and system files
+.agents/
+.drawer-content
+.wrangler/
+skills-lock.json
+AGENTS.md
+CLAUDE.md
+
+# local helper scripts
+inspect_db.js
+test-usabilidade.js
